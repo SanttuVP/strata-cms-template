@@ -80,14 +80,14 @@ paginate = 10
 			description = "Projektin kuvaus"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
 			title = "Projekti"
 			description = "Projektin kuvaus"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
 			title = "Projekti"
 			description = "Projektin kuvaus"
 
@@ -103,7 +103,6 @@ paginate = 10
 		address = [
 			"Helsinki, Suomi",
 		]
-		phone = "000-000-0000"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
