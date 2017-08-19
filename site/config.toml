@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Strata"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -11,8 +11,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "Nimi"
+	description = "Sivun kuvaus"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -28,8 +28,8 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**Tervetuloa**, tällä sivustolla sijaitsee <br><nimi> blogi <br>."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
+		twitter = "santtuvp"
+		github = ""
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
@@ -46,7 +46,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Tässä blogissa takerrumme...jatkuu"
-		content = "Toivottavasti artikkelien sisältö...jatkuu"
+		content = "Toivottavasti artikkelien sisältö...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
 	[params.portfolio]
@@ -64,6 +64,18 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
+			title = "Projekti"
+			description = "Projektin kuvaus"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Projekti"
+			description = "Projektin kuvaus"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
 			title = "Projekti"
 			description = "Projektin kuvaus"
 
@@ -104,7 +116,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "p.santtuvp@gmail.com"
+		email = "keksitty_spostiosoite@....com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -117,13 +129,13 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Koti"
+	name = "Etusivu"
 	url  = "/"
 	weight = 0
 
 [[menu.main]]
 	name = "Minusta"
-	url  = "minusta"
+	url  = "about"
 	weight = 5
 
 [[menu.main]]
